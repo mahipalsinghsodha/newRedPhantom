@@ -1,0 +1,440 @@
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+.section1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid gray;
+}
+.section1::before{
+    content: " ";
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 1;
+}
+/* innner section to all */
+.inner-section{
+  position: relative;
+   height: 75vh;
+   width: 100vw;
+   border-top: 1px solid black;
+   z-index: 2;
+   box-sizing: border-box;
+
+}
+.sec-1{
+    background-color:rgb(106, 54, 20);
+}
+
+/* navagation bar */
+.topnav {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: transparent;
+    width: 95%;
+    box-sizing: border-box;
+  }
+  .topnav img{
+    height: 60px;
+    width: 100px;
+
+  }
+  
+  .topnav a {
+    background-color: transparent;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color: red;
+  }
+  
+  .topnav a.active {
+    color: red;
+  }
+  
+  .topnav-right {
+    background-color: transparent;
+    float: right;
+
+  }
+.main{
+    position: relative;
+    top: 0px;
+    left: 100px;
+    background-color: transparent;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    height: 553px;
+
+
+}
+.main h1{
+    background-color: transparent;
+    text-align: left;
+    color: white;
+    font-size: 55px;
+    font-weight: 400;
+}
+.main samp{
+    background-color: transparent;
+    color: black;
+}
+.main p{
+    background-color: transparent;
+    padding: 20px;
+    color: white;
+    border: 1px solid wheat;
+
+}
+.text-sec{
+    background-color: transparent;
+    width: 50%;
+}
+.inner-text{
+    background-color: transparent;
+    position: relative;
+    left: 40px;
+    width: 400px;
+}
+.secon-sec{
+    background-color: transparent;
+    position: relative;
+    top: 85px;
+    width: 50%;
+}
+/* .secon-sec::before{
+    content: " ";
+    position: absolute;
+    background:url('./image/student.png')no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    opacity: 1;
+} */
+.secon-sec img{
+    background-color: transparent;
+    height: 552px;
+    width: 536px;
+    box-sizing: border-box;
+}
+.section2{
+    position: relative;
+    display: flex;
+    top: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid gray;
+
+}
+.section2::before{
+    content: " ";
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 1;
+}
+.section2 .inner-section h1{
+    background-color: transparent;
+    color: white;
+}
+.section2 .inner-section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+
+}
+.part2{
+    display: flex;
+    display: flex;
+    height: 630px;
+    width: 80%;
+    background-color: transparent;
+}
+.part2-main{
+    background-color: transparent;
+    height: 580px;
+    width: 50%;
+    margin: 15px 30PX
+}
+.part2 .inne-image{
+    position: relative;
+    left: 10px;
+    padding: 2px;
+    height: 280px;
+    width: 580px;
+    background-color: transparent;
+    
+}
+.part2 .inne-image1{
+    position: relative;
+    top: 10px;
+    padding: 1px 10px;
+    text-align: left;
+    height: 280px;
+    width: 580px;
+    color: white;
+    border-left: 1px solid wheat;
+    background-color: transparent;
+}
+.part2-main .inne-image img{
+    height: 280px;
+    width: 580px;
+    background-color: transparent;
+}
+.part2-main .inne-image1 h2{
+    padding: 4px;
+    background-color: transparent;
+}
+.part2-main .inne-image1 p{
+    font-size: 18px;
+    padding: 4px;
+    background-color: transparent;
+}
+ .btn1{
+    font-size: 20px;
+    margin: 8px;
+    padding: 4px 10px;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+}
+.section3{
+    position: relative;
+    display: flex;
+    top: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid gray;
+
+}
+.section3::before{
+    content: " ";
+    position: absolute;
+    background-color:white;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 1;
+}
+.part3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url('./image/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    opacity: 1;
+}
+.part3 h5{
+    color: white;
+    letter-spacing: 5px;
+    background-color: transparent;
+
+}
+.part3 h1{
+    font-size: 45px;
+    font-weight: 400;
+    padding: 20px;
+    margin: 20px;
+    letter-spacing: 2px;
+    color: white;
+    background-color: transparent;
+}
+.part3 p{
+    color: white;
+    background-color: transparent;
+}
+.inly-text{
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    background-color: transparent;
+}
+.section4{
+    position: relative;
+    display: flex;
+    top: 60px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid gray;
+
+}
+.section4::before{
+    content: " ";
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 1;
+}
+.section4 .inner-section{
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black; 
+}
+.footer-head{
+    top: 20px;
+    position: absolute;
+    height: 120px;
+    width: 95%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-bottom:  0.08px solid white;
+  
+}
+.items{
+    background-color: transparent;
+    width: 30%;
+}
+.items i{
+    background-color: transparent;
+    font-size: 36px;
+}
+.items samp{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.items p{
+    background-color: transparent;
+     color: blue;
+
+}
+.footer-second{
+    position: relative;
+    display: flex;
+    top: 40px;
+    height: 450px;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    background-color: transparent;
+}
+.second-footer2{
+    height:450px ;
+    width: 26%;
+    margin: 2px 40px;
+    padding: 2px 30px;
+    background-color: transparent;
+}
+.second-footer2 img{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    
+}
+.socil-media{
+    display: flex;
+    height: 120px;
+    width: 100%;
+    background-color: transparent;
+}
+.socil-media img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin: 2px;
+    padding: 2px;
+    background-color: transparent;
+}
+.socil-media a{
+    background-color: transparent;
+}
+.second-footer2 h3{
+    color: white;
+    padding: 4px;
+    border-bottom: 2px solid red;
+    background-color: transparent;
+}
+.second-footer2 .content{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    width: 100%;
+    background-color: transparent;
+}
+.all-links{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    background-color: transparent;
+}
+.all-links a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 15px;
+    padding: 5px;
+    margin: 8px;
+    background-color: transparent;
+
+}
+.all-links a:hover{
+    color: red;
+    background-color: transparent;
+}
+.second-footer2 p{
+    color: wheat;
+    font-size: 15px;
+    padding: 20px 5px;
+    margin: 10px 5px;
+    background-color: transparent;
+}
+.input[type=email]{
+    width: 300px;
+    background-color: transparent;
+}
+
+
